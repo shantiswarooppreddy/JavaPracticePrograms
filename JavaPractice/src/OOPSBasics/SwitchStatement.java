@@ -17,9 +17,7 @@ public class SwitchStatement {
 		System.out.println ("This is Statement 3");
 		break;
 		default :
-		System.out.println ("This is Statement 4");
-	    
-	    
+		System.out.println ("This is Statement 4");   
 		}
 		
 	}

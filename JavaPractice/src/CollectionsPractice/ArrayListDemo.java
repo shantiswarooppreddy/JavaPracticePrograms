@@ -1,14 +1,14 @@
 package CollectionsPractice;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ArrayListDemo {
 
 	public static void main(String args[]) {
 		// Create an array list.
 		ArrayList<String> al = new ArrayList<String>();
-		System.out.println("Initial size of al: " +
-		al.size());
+		System.out.println("Initial size of al: " + al.size());
 		// Add elements to the array list.
 		al.add("C");
 		al.add("A");
@@ -27,7 +27,7 @@ public class ArrayListDemo {
 		System.out.println("Size of al after deletions: " +
 		al.size());
 		//450 Part II: The Java Library
-		System.out.println("Contents of al: " + al);
+		System.out.println("Contents of al: " + al); 
 		}
 		
 }
