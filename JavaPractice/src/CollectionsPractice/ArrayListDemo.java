@@ -1,6 +1,7 @@
 package CollectionsPractice;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListDemo {
@@ -24,10 +25,13 @@ public class ArrayListDemo {
 		// Remove elements from the array list.
 		al.remove("F");
 		al.remove(2);
-		System.out.println("Size of al after deletions: " +
-		al.size());
+		System.out.println("Size of al after deletions: " + al.size());
 		//450 Part II: The Java Library
-		System.out.println("Contents of al: " + al); 
+		System.out.println("Contents of al: " + al);
+		//Printing using iterator
+		Iterator<String> it = al.iterator();
+		while(it.hasNext())
+			System.out.println(it.next());
 		}
 		
 }

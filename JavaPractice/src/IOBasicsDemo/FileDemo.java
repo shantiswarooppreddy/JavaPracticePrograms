@@ -24,7 +24,7 @@ System.out.println(s);
 		p("File last modified: " + f1.lastModified());
 		p("File size: " + f1.length() + " Bytes");
 		f1.toPath();
-		
+
 		String dirname = "C:\\wlrun.log";
 		if (f1.isDirectory()) {
 			System.out.println("Directory of " + dirname);

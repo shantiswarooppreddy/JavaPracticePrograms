@@ -19,10 +19,10 @@ public class SearchingStrings {
 		System.out.println(string1.lastIndexOf("is"));
 		
 		//First Index from a particular point
-		System.out.println(string1.indexOf('i', 5));
+		System.out.println(string1.indexOf('s', 5));
 		
 		//Last Index from a particular point
-		System.out.println(string1.lastIndexOf('i',5));
+		System.out.println(string1.lastIndexOf('s',5));
 	}
 
 }

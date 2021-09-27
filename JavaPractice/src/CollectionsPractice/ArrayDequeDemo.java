@@ -14,6 +14,7 @@ public class ArrayDequeDemo {
 		Ad.add("Location");
 		Ad.add("Implementation");
 		Ad.add("figure");
+		Ad.remove("Location");
 		
 		while(Ad.peek()!= null)
 			System.out.println(Ad.pop());

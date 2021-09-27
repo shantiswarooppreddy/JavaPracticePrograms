@@ -21,7 +21,7 @@ public class stringBufferDemo {
 		//Defining the length of a particular String Buffer
 		strbuf.setLength(6);
 		System.out.println(strbuf.length());
-		strbuf.ensureCapacity(12);
+		strbuf.ensureCapacity(21);
 		System.out.println(strbuf.capacity());
 	}
 

@@ -14,6 +14,7 @@ public class HashSetDemo {
 		hs.add(55);
 		hs.add(57);
 		hs.add(3);
+		hs.remove(55);
 		
 		System.out.println (hs);
 		

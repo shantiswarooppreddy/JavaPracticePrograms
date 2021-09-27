@@ -8,18 +8,22 @@ public class FileReaderWriterDemo {
 	
 	public static void main(String args[]) throws IOException
 	{
-		FileWriter Fr = new FileWriter(System.getProperty("user.dir") + "\\Fout2.txt");
-		Fr.append("This is the first sentence\n");
-		Fr.append("This is the second sentence\n");
-		Fr.append("This is the third sentence\n");
-		Fr.append("This is the fourth sentence\n");
-		Fr.append("This is the fifth sentence\n");
+		FileWriter Fr = new FileWriter(System.getProperty("user.dir") + "\\Fout2.txt", true);
+		Fr.append("This is the six sentence\n");
+		Fr.append("This is the seven sentence\n");
+		Fr.append("This is the eighth sentence\n");
+		Fr.append("This is the ninth sentence\n");
+		Fr.append("This is the tenth sentence\n");
 		Fr.close();
 		
 		FileReader Fd = new FileReader(System.getProperty("user.dir") + "\\Fout2.txt");
-		char c;
-		while((c = (char) Fd.read()) == -1)
-			System.out.print(c);
+		int i = Fd.read();
+		while(i != -1)
+		{
+			System.out.print((char)i);
+		    i = Fd.read();
+		}
+		Fd.close();
 	}
 	
 }
