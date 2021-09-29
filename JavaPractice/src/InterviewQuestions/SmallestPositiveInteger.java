@@ -14,7 +14,10 @@ public class SmallestPositiveInteger {
 			for(int i = 1; i <= A[A.length -1]; i++)
 			{	
 				if(Arrays.binarySearch(A, i) <= -1)
-				{    System.out.println(i); break; }
+				{    
+					System.out.println(i); 
+					break; 
+				}
 				else if (i == A[A.length -1])
 					 System.out.println(A[A.length - 1] + 1);
 			}		
