@@ -6,7 +6,7 @@ public class BalancedFragment {
 	{
 		for(int j = 0; j <= S.length() - i; j++)
 		{
-			System.out.println(S.substring(j, j + i));
+			//System.out.println(S.substring(j, j + i));
 			if(balanced(S.substring(j, j + i)))
 				return true;
 		}
@@ -22,7 +22,7 @@ public class BalancedFragment {
 			   
 		       char c = (char) (substring.charAt(i) + 32);
 		       char d = (char) (substring.charAt(i) - 32);
-		       System.out.println(c); 
+		       //System.out.println(c); 
 		       if(substring.indexOf(c) == -1 && substring.indexOf(d) == -1)
 		       {   
 		    	   flag = false;

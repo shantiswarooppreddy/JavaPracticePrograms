@@ -7,6 +7,11 @@ public class StaticBlockExample {
 		System.out.println("This is in a static block");
 	}
 	
+	static
+	{
+		System.out.println("This is in a static block2");
+	}
+	
 	public static void main(String args[])
 	{
 		System.out.println("Inside the main function");
