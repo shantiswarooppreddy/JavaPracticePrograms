@@ -24,6 +24,7 @@ public class BufferedInputAndOutputStream {
 		for(int j = 100; j < 200; j++)
 			Bout.write(j);
 		Bout.close();
+		Fout1.close();
 		
 		FileInputStream Fin = new FileInputStream(System.getProperty("user.dir") + "\\Fout.txt");
 		BufferedInputStream Bin = new BufferedInputStream(Fin);

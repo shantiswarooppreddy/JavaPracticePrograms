@@ -4,7 +4,7 @@ public class LCM {
 	
 	public static void main(String args[])
 	{
-		int a = 2, b = 4, c = 10;
+		int a = 12, b = 18, c = 24;
 		int d = a*b*c;
 		int temp = d;
 		for(int i = 2; i <= a*b*c; i++)
